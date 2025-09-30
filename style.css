@@ -1,0 +1,204 @@
+    *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif
+        }
+         .card-container{
+        flex-direction: row;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        
+        width: 100%;
+     
+        margin: auto;
+        display: flex;
+        flex-wrap:wrap;
+    } 
+        header{
+            flex: 0 0 80px;
+            padding: 20px;
+            display: flex;
+            background-color: #2C3E54;
+            color: white;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .user{
+            align-items: center;
+            gap: 15px;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+        }
+        #icon{
+            padding: 15px;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgb(0, 157, 255);
+        }
+        main{
+            flex: 1 1 auto;
+            min-height: 0;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #F5F6F5;
+            
+        }
+         aside{
+            flex: 0 1 200px;
+            display: flex;
+            justify-content: flex-start;
+            background-color:#34495E;
+            
+        }
+        #section{
+            flex: 1 1 400px;
+            display: flex;
+            flex-direction: column;
+            background-color: #F5F6F5;
+            padding: 30px;
+        }
+        .nav{
+            height: 100vh;
+            width: 200px;
+            display: flex;
+            border-radius: 10px;
+            color: white;
+            flex-direction: column;
+            align-content: center;
+            
+        }
+        .nav-item{
+          
+            width:200px;
+            height:50px;
+            color: white;
+            display: flex;  
+            padding:20px; 
+            
+                
+        }
+        .nav-item:hover{
+            background-color: rgb(0, 157, 255);
+            
+                        
+        }
+        .card1{
+            padding: 15px;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            background-color: #F8F8F9;
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(31, 31, 31, 0.2);
+            width: 300px;
+            height: 150px;
+            
+        }
+        .card1 p{
+            margin-top: 5px;
+            color: grey;
+        }
+        .charts{
+            display: flex;
+            flex-direction: row;
+        }
+        .sales{
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin: 20px;
+            justify-content: space-evenly;
+            background-color: #F8F8F9;
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(31, 31, 31, 0.2);
+            width: 800px;
+            height: 300px;
+        }
+        .list{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin-top: 20px;
+            justify-content: flex-start;
+            background-color: #F8F8F9;
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(31, 31, 31, 0.2);
+            width: 400px;
+            height: 300px;
+        }
+        .list-head{
+            font-size: 18px;
+            text-align: left;
+            padding-bottom:20px;
+        }
+        .list-stuff{
+            
+            
+            
+            padding: 12px;
+            border-bottom: 1px solid gainsboro;
+                   
+        }
+        .list-end{
+            display: flex;
+            margin-top: 5px;
+            flex-direction: column;
+            padding: 12px;
+            border-bottom: 1px solid gainsboro;
+            align-items: flex-end;       
+        }
+        .chart{
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin: 10px;
+            justify-content: space-evenly;
+            background-color: #F8F8F9;
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(31, 31, 31, 0.2);
+            width: 1200px;
+            height: 300px;
+        }
+        .orders{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .price{
+            color: #5FAB81;
+        }
+        .customers{
+            color: grey;
+        }
+        #gradient{
+            height: 250px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: space-evenly;
+            background: linear-gradient(to right, #329DCA, #2DC67C);
+            margin-top:10px;
+        } 
+         footer{
+            flex: 0 0 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #2D3E50;
+            color: white;
+            height: 50px;
+        }
+
+
+        
